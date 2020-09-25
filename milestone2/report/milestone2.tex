@@ -22,17 +22,90 @@
     \subsection*{Hva er en partisjon?}
     \subsection*{Har partisjonering noe å si hvis vi bare har en maskin?}
     \section{Programmering}
-    
-    \url{https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=bitcoin_cash_price.csv}
 
-    \begin{itemize}
-        \item Hvilken dato hadde Bitcoin Cash den høyeste market capen?
+    Jeg bruker bitcoin\_cash\_price. csv som er tatt fra Crypto currency price history datasettet. Datasettet kan finnes på linken \url{https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=bitcoin_cash_price.csv} men blir også vedlagt i innleveringen. \newline
+
+    \noindent Mine 5 spørringer:
+    \begin{itemize} 
+        \item Hva er den høyeste registrerte market capen?
         \item Hva er differansen mellom den høyeste highen og den laveste highen?
         \item Hvilken dato hadde den høyeste åpningskursen? Hvordan så resten av dataen ut for den dagen?
         \item Hvilken dato hadde den laveste åpningskursen? Hvordan så resten av dataen ut denne dagen?
-        \item Hvilken dag hadde den største differansen mellom high og low?
+        \item Hvilken dag hadde den største differansen mellom høyeste high og laveste low?
     \end{itemize}
-    
 
+    \clearpage
+
+    \subsection{Hva er den høyeste registrerte market capen?}
+    \begin{itemize}
+        \item \textbf{Hvorfor er dette interessant?} \newline
+        Dette er interessant å vite siden dette forteller oss hvilken dag Bitcoin Cash hadde sin høyeste samlede markedsverdi. 
+        Ved å se på annen data fra denne dagen kan det hjelpe oss med å forutse eller forstå fremtidige trender.
+        
+        \item \textbf{Antagelser for at denne spørringen skal være gyldig} \newline
+        For at denne spørringen skal være gyldig må vi anta at datasettet har korrekte verdier og at datasettet
+        inneholder data som er samlet over lang tid. Hvis vi fant høyeste market cap over den siste uka kan det gi oss et bilde
+        om hvordan valutaen ligger ann nå, men det gir oss hele bildet om markedsverdien sett fra et historisk perspektiv.
+        
+        \item Skjermdump av plans
+        
+        \item Annen implementasjon
+
+    \end{itemize}
+
+    \subsection{Hva er differansen mellom den høyeste highen og den laveste highen?}
+
+    \begin{itemize}
+        
+   
+    \item \textbf{Hvorfor er dette interessant?} \newline
+    Jeg syntes dette er interessant å vite for da kan jeg se hvor stor varianse det har vært i bitcoin cash sin verdi. 
+    Dette gir et innblikk i hvor mye som kan skje med noe så "sensitivt" som en kryptovaluta over tid.
+    \item \textbf{Antagelser for at denne spørringen skal være gyldig} \newline
+    Jeg har ingen spesifikk antagelser for denne dataen annet enn at dataen må stemme for at spørringe skal gi oss noen verdifull info.
+    \item Skjermdump av plans
+    
+    \item Annen implementasjon
+
+    \end{itemize}
+
+    \subsection{Hvilken dato hadde den høyeste åpningskursen? Hvordan så resten av dataen ut for den dagen?}
+    \begin{itemize}
+        
+    \item \textbf{Hvorfor er dette interessant?} \newline
+    Ved å finne datoen med den høyeste åpningskursen kan vi se på perioden som bygget opp til denne datoen. Med denne infoen kan vi bruke tidligere trender til å hjelpe oss med å forutse lignende peaks i fremtiden. Ved å finne datoen og da all tilhørende data for den dagen kan vi bruke dette for eventuelle fremtidige kjøp.
+    \item \textbf{Antagelser for at denne spørringen skal være gyldig} \newline
+    Ingen spesielle antagelser bortsett fra de nevnt i forrige spørring.
+    \item Skjermdump av plans
+    
+    \item Annen implementasjon
+
+    \end{itemize}
+
+    \subsection{Hvilken dato hadde den laveste åpningskursen? Hvordan så resten av dataen ut denne dagen?}
+    \begin{itemize}
+        
+    \item \textbf{Hvorfor er dette interessant?} \newline
+    Det omvendte av det som ble beskrivet i forrige spørring. Ved å se på dato fra dårlige dager og tidsperioden rundt denne dataoen kan vi finne trender som fører til dårlige perioder for valutaen.
+    \item \textbf{Antagelser for at denne spørringen skal være gyldig} \newline
+    Ingen spesielle antagelser bortsett fra de som er nevnt tidligere.
+    \item Skjermdump av plans
+    
+    \item Annen implementasjon
+
+    \end{itemize}
+
+    \subsection{Hvilken dag hadde den største differansen mellom høyeste high og laveste low?}
+    \begin{itemize}
+        
+    \item \textbf{Hvorfor er dette interessant?} \newline
+    Det er interresant å se variasjonsbredden mellom høyeste og laveste verdi.
+    \item \textbf{Antagelser for at denne spørringen skal være gyldig} \newline
+    Antar at all data er korrekt.
+    \item Skjermdump av plans
+    
+    \item Annen implementasjon
+
+    \end{itemize}
 
 \end{document}
